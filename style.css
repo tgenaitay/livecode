@@ -1,0 +1,72 @@
+/* Fonts and colors */
+body {
+  color: #494949;
+  font-size: 18px;
+  line-height: 1.6;
+  font-weight: lighter;
+  font-family: 'Lora', serif;
+  margin: 0;
+}
+h1, h2, h3 {
+  font-family: 'Montserrat', sans-serif;
+  font-weight: bold;
+  color: #a3a3a3;
+}
+h2 {
+  font-weight: normal;
+}
+
+a {
+  text-decoration: none;
+  color: #4352A1;
+}
+
+/* Custom design */
+
+.container {
+  width: 700px;
+  margin: 0 auto;
+}
+
+.banner {
+  background: linear-gradient(90deg, rgba(0,0,0,0.5) 0%, rgba(0,0,0,0.8) 100%), url(http://placebeard.it/1200x500);
+  padding:100px 0px;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.banner h1, .banner h2 {
+  color:white;
+}
+
+
+/* Media queries */
+
+@media (max-width: 800px) {
+  /*IF MY PAGE IS REACHING 800PX
+  THEN THIS CSS CODE APPLIES*/
+
+  .container {
+    width: 550px;
+  }
+
+  p {
+    font-size: 1.5em;
+  }
+}
+
+@media (max-width: 600px) {
+  .container {
+    width: 400px;
+  }
+
+  .banner {
+    background: white;
+  }
+
+  .banner h1, .banner h2 {
+    color: black;
+  }
+}
+
+
